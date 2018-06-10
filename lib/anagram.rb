@@ -3,6 +3,7 @@ class Anagram
 
   def initialize(word)
     @word = word
+  end
 
   def match(arr)
     arr.each do |word|
