@@ -6,4 +6,4 @@ class Anagram
 
   def match(arr)
     arr.each do |word|
-      return word if word.split("").sort == @word
+      return word if word.split("").sort == @word.split("")
