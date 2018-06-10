@@ -6,11 +6,11 @@ class Anagram
   end
 
   def match(arr)
-    matches = []
-    arr.each do |word|
+  matches = []
+  arr.each do |word|
     if word.split("").sort == @word.split("").sort
       matches << word
-      end
     end
-  matches
   end
+  matches
+end
