@@ -4,5 +4,6 @@ class Anagram
   def initialize(word)
     @word = word
 
-  def anagram-detector
-    
+  def match(arr)
+    arr.each do |word|
+      return word if word.split("").sort == @word
