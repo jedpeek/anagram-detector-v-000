@@ -5,3 +5,4 @@ class Anagram
     @word = word
 
   def anagram-detector
+    
