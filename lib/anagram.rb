@@ -9,8 +9,6 @@ class Anagram
   matches = []
   arr.each do |word|
   matches << word if word.split("").sort == @word.split("").sort
-      
-    end
   end
   matches
 end
